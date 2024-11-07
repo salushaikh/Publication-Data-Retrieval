@@ -70,7 +70,7 @@ def save_book_data_to_csv(api_key, query, file_name="BookData.csv"):
     print(f"Data retrieval successful! Updated {file_name}")
 
 # Replace 'YOUR_API_KEY' with your actual Google Books API key and 'your_query' with the book query you want to search for
-api_key = "AIzaSyCHLm5a3P_MEgCbtDcCzwDYa2u8ojZoALY"
+api_key = "your_api_key"
 query = "Biology"
 file_name = "booksdata.csv"  # Use your desired file name here
 save_book_data_to_csv(api_key, query, file_name)
