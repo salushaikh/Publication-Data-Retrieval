@@ -97,7 +97,7 @@ def fetch_google_scholar_data(api_key, query, file_name="scholar_data.csv"):
     print(f"Data retrieval successful! Updated {file_name}")
 
 # Replace 'YOUR_API_KEY' with your actual SerpAPI key and 'your_query' with the search query
-api_key = "a27c458e66947df17803c7910481ae251a4bacb55b9e95185da539db1d9ac568"
+api_key = "your_api_key"
 query = "biology"
 file_name = "scholar_data.csv"
 fetch_google_scholar_data(api_key, query, file_name)
