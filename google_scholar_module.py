@@ -60,6 +60,7 @@ def fetch_google_scholar_data(api_key, query, max_results=10):
         cleaned_snippet = cleaned_snippet.replace("…", "...")
 
         scholar_entry = {
+            "Source": "GS",
             "Title": result.get("title", ""),
             "Snippet": cleaned_snippet,
             "Author Name": author_name,
