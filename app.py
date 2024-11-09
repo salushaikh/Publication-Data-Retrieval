@@ -47,7 +47,7 @@ def retrieve_combined_data(query, max_results, api_keys):
 def update_csv_file(file_name, combined_data):
     # Fieldnames for the CSV, ensure these cover both Google Books and Scholar data
     fieldnames = [
-        "Title", "Snippet", "Author Name", "Publication Year", "Publisher", "Publication Date",
+        "Source","Title", "Snippet", "Author Name", "Publication Year", "Publisher", "Publication Date",
         "Description", "ISBN Identifiers", "Page Count", "Categories", "Content Version",
         "Image Links", "Language", "Resource Title", "Resource Link",
         "Cited By Link", "Versions Link"
