@@ -30,6 +30,7 @@ def fetch_google_books_data(api_key, query, max_results=10):
         )
 
         book_data = {
+            "Source": "GB",
             "Title": volume_info.get("title", ""),
             "Snippet": volume_info.get("description", ""), 
             "Author Name": ", ".join(volume_info.get("authors", [])),
